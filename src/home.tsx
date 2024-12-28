@@ -3,6 +3,8 @@ import { FooterRoute } from "./components/footer";
 import { Herocomponent } from "./components/hero";
 import Logo from ".//assets/gogetterlogo.svg";
 import { useState } from "react";
+import { BundlingPackages } from "./components/packages";
+import { Testimonials } from "./components/testimonials";
 
 export function HomeRoute() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,6 +44,8 @@ export function HomeRoute() {
       <main className="p-6">
         <Herocomponent />
         <CardRoute />
+        <BundlingPackages />
+        <Testimonials />
       </main>
 
       {/* Footer */}

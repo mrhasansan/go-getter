@@ -2,7 +2,7 @@ import { FaInstagram, FaWhatsapp, FaYoutube, FaTiktok } from "react-icons/fa";
 
 export function FooterRoute() {
   return (
-    <footer className="bg-secondary text-white py-12">
+    <footer className=" bg-white text-black py-12">
       <div className="max-w-6xl mx-auto text-center">
         {/* Social Media Icons */}
         <div className="flex justify-center mt-8 space-x-6 text-2xl">

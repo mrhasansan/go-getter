@@ -11,19 +11,19 @@ export function HomeRoute() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-secondary text-white py-4 px-6 flex justify-between items-center">
+      <header className=" bg-white text-black py-4 px-6 flex justify-between items-center">
         <div>
           {/* Logo */}
           <img src={Logo} alt="Go Getter Logo" className="w-16 h-16 object-contain" />
         </div>
         <div>
           {/* Hamburger Icon (Visible on small devices) */}
-          <button className="sm:hidden text-white text-3xl" onClick={() => setIsOpen(!isOpen)}>
+          <button className="sm:hidden text-black text-3xl" onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? "✕" : "☰"}
           </button>
 
           {/* Navigation Menu */}
-          <nav className={`${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full bg-secondary sm:block sm:static sm:flex sm:space-x-6`}>
+          <nav className={`${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full  sm:block sm:static sm:flex sm:space-x-6`}>
             <a href="#success-stories" className="block px-6 py-2 hover:underline">
               Home
             </a>

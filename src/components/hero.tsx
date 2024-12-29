@@ -3,7 +3,7 @@ export function Herocomponent() {
     <section className="bg-gray-100 py-12 px-6 text-center">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-logblue mb-4">
-          Go Get Your Dreams With <span className=" text-primary">Go-Getter... </span>
+          Go Get Your Dreams With <span className=" text-primary">Go-Getter Academy </span>
         </h1>
         <p className="text-lg text-gray-600 mb-6">Boost your IELTS skills and confidence with personalized classes and proven strategies! Whether you prefer one-on-one sessions or group learning, we’ve got you covered. </p>
         <button className="bg-primary text-white py-2 px-6 rounded-lg hover:bg-yellow-500 transition">

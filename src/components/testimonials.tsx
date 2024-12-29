@@ -24,7 +24,7 @@ export function Testimonials() {
     <div className="min-h-screen bg-gray-50 py-12 px-6">
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-3xl font-bold text-gray-800">What Do Students Say About Us?</h2>
-        <p className="text-gray-600 mt-2">Our global students share their learning experiences with IOT.</p>
+        <p className="text-gray-600 mt-2">Our students share their learning experiences with Go-Getter Academy.</p>
       </div>
 
       {/* Grid Layout */}

@@ -1,7 +1,10 @@
+import { MdGroups } from "react-icons/md";
+import { IoMdPerson } from "react-icons/io";
+
 export function PricingCards() {
   const plans = [
     {
-      icon: "💡",
+      icon: <IoMdPerson />,
       title: "One-On-One",
       price: "75.000",
       features: [
@@ -16,15 +19,15 @@ export function PricingCards() {
       buttonLabel: "Gabung Kelas",
     },
     {
-      icon: "⚙️",
+      icon: <MdGroups />,
       title: "IELTS Group",
       price: "Rp 30.000",
       features: ["Format IELTS Academic", "Latihan lengkap semua skill", "Tips strategi menjawab soal", "Diskusi kelompok dengan tutor", "Jadwal tetap & materi terstruktur", "Paket 10 sesi belajar", "100% online via Zoom"],
       buttonLabel: "Gabung Kelas",
     },
     {
-      icon: "⚡",
-      title: "TOEFL Reading",
+      icon: <MdGroups />,
+      title: "TOEFL Group",
       price: "Rp 25.000",
       features: ["Format TOEFL ITP", "Latihan Reading, Listening, Structure", "Tips strategi menjawab soal", "Diskusi kelompok dengan tutor", "Jadwal tetap & materi terstruktur", "Paket 10 sesi belajar", "100% online via Zoom"],
       buttonLabel: "Gabung Kelas",
@@ -35,9 +38,9 @@ export function PricingCards() {
     <div className="min-h-screen bg-gray-50 py-12 px-6 ">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl">
         {plans.map((plan, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-lg p-6 text-center cursor-pointer border-2 border-gray-200 hover:border-blue-500 transition duration-300">
+          <div key={index} className="bg-white rounded-lg shadow-lg p-6 text-center cursor-pointer border-2 border-gray-200 hover:border-logblue transition duration-300">
             {/* Icon */}
-            <div className="text-4xl mb-4">{plan.icon}</div>
+            <div className="flex justify-center items-center text-8xl mb-4 text-logblue">{plan.icon}</div>
 
             {/* Title */}
             <h2 className="text-xl font-bold mb-2">{plan.title}</h2>
@@ -52,7 +55,7 @@ export function PricingCards() {
               ))}
             </ul>
             {/* Price */}
-            <p className={`text-lg font-semibold ${plan.price === "FREE" ? "text-green-500" : "text-blue-600"} mb-4`}>{plan.price}/pertemuan</p>
+            <p className={`text-lg font-semibold ${plan.price === "FREE" ? "text-green-500" : "text-logblue"} mb-4`}>{plan.price}/pertemuan</p>
 
             {/* Button */}
 

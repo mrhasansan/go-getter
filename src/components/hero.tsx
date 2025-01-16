@@ -20,7 +20,7 @@ export function Herocomponent() {
             <h1 className="text-4xl font-bold text-logblue mb-4">
               Go Get Your Dreams With <span className=" text-primary">Go-Getter Academy </span>
             </h1>
-            <p className="text-lg text-gray-600 mb-6">Boost your IELTS skills and confidence with personalized classes and proven strategies! Whether you prefer one-on-one sessions or group learning, we’ve got you covered. </p>
+            <p className="text-lg text-gray-600 mb-6">Boost your English skills and confidence with personalized classes and proven strategies! Whether you prefer one-on-one sessions or group learning, we’ve got you covered. </p>
             <button className="bg-primary text-white py-2 px-6 rounded-lg hover:bg-yellow-500 transition">
               <a href="https://www.instagram.com/gogetter_academy/" target="_blank" rel="noopener noreferrer">
                 {" "}

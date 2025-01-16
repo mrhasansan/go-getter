@@ -33,7 +33,10 @@ export function PricingCards() {
 
   return (
     <div className="min-h-screen bg-gray-50 flex justify-center items-center p-6">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl">
+      <div className="max-w-6xl mx-auto text-center mb-12">
+        <h2 className="">Paket Bundling untuk Belajar Lebih Murah dan Lengkap!</h2>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl">
         {plans.map((plan, index) => (
           <div key={index} className="bg-white rounded-lg shadow-lg p-6 text-center cursor-pointer border-2 border-gray-200 hover:border-blue-500 transition duration-300">
             {/* Icon */}
@@ -52,7 +55,7 @@ export function PricingCards() {
               ))}
             </ul>
             {/* Price */}
-            <p className={`text-lg font-semibold ${plan.price === "FREE" ? "text-green-500" : "text-blue-600"} mb-4`}>{plan.price}</p>
+            <p className={`text-lg font-semibold ${plan.price === "FREE" ? "text-green-500" : "text-blue-600"} mb-4`}>{plan.price}/meeting</p>
 
             {/* Button */}
 

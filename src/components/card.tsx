@@ -2,7 +2,7 @@ export function CardRoute() {
   return (
     <section className="py-12">
       <div className="text-center mb-8">
-        <h2 className="text-2xl font-bold text-gray-800">Achieve your dream IELTS band score!</h2>
+        <h2 className="text-2xl font-bold text-gray-800">Achieve your dream English profeciency test score!</h2>
         <p className="text-gray-600">The ultimate solution to build your skills and confidence.</p>
       </div>
       <div className=" relative px-6">

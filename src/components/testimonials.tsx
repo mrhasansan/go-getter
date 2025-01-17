@@ -1,28 +1,26 @@
+import komang from "../assets/komang.jpeg";
+import bintang from "../assets/bintang.jpeg";
+import dheo from "../assets/dheo.jpeg";
+
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Kak Klaraa",
-      country: "Palu",
-      image: "https://via.placeholder.com/100", // Replace with real image URL
-      text: "It's a very useful platform for students. Furthermore, it is great for students from all over the world to prepare anywhere.",
+      name: "Bintang",
+      type: "one-on-one",
+      image: bintang, // Replace with real image URL
+      text: "So far, udah ngelewatin semua aspek IELTS course, dari reading sampe speaking. Semua materi disampaikan dengan cara yang super terstruktur, tapi tetep chill dan gampang dicerna. Cara ngajarnya tuh enak banget, gak ngerasa ditekan harus bisa semuanya, malah kayak ada yang nemenin belajar gitu. Yang paling worth it sih setiap kali kelar ngerjain task, langsung dapet apresiasi, semangat, plus feedback yang bikin lebih semangat buat lanjut. Makanya, walaupun kadang pengen nyerah, tetep bisa stay motivated. Highly recommended buat kalian para beasiswa hunters yang pengen siap-siap IELTS dengan cara fun dan efektif!",
     },
     {
-      name: "Kak Bintang",
-      country: "Luwuk",
-      image: "https://via.placeholder.com/100", // Replace with real image URL
-      text: "Dear team, you made the actual test easier and for this, I like to say a very big thank you for all the efforts put in place for me to emerge successfully. I took the test once and passed. Thanks for the good job and for putting smiles on our faces.",
+      name: "Komang",
+      type: "IELTS introduction",
+      image: komang, // Replace with real image URL
+      text: "As a final-year agricultural student at Tadulako University, I had the pleasure of attending Go Getter Academy for my IELTS preparation, and I couldn't be more satisfied. The teaching approach is exceptional; the instructor’s friendly demeanor creates a welcoming environment that makes learning enjoyable. Each method of IELTS preparation was thoroughly explained, and even though it was just an overview, the insights I gained were truly marvelous. The supportive atmosphere and effective strategies provided by Go Getter Academy have significantly boosted my confidence. I highly recommend this academy to anyone looking to excel in their IELTS exam!",
     },
     {
-      name: "Kak Komang",
-      country: "Semarang",
-      image: "https://via.placeholder.com/100", // Replace with real image URL
-      text: "It's a wonderful website and makes me more comfortable when practicing the exercises. Thanks a lot, team.",
-    },
-    {
-      name: "Kak Deo",
-      country: "Bali",
-      image: "https://via.placeholder.com/100", // Replace with real image URL
-      text: "It's a wonderful website and makes me more comfortable when practicing the exercises. Thanks a lot, team.",
+      name: "Dheo",
+      type: "IELTS introduction",
+      image: dheo, // Replace with real image URL
+      text: "I love the interactive atmosphere of the class and the abundance of practice questions. The tutor also always provides constructive feedback",
     },
   ];
 
@@ -36,12 +34,12 @@ export function Testimonials() {
       {/* Grid Layout */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center">
+          <div key={index} className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-start">
             {/* Profile Image */}
             <img src={testimonial.image} alt={testimonial.name} className="w-24 h-24 rounded-full mb-4" />
             {/* Name and Country */}
             <h3 className="text-lg font-bold text-gray-800">{testimonial.name}</h3>
-            <p className="text-sm text-gray-500">{testimonial.country}</p>
+            <p className="text-sm text-gray-500">{testimonial.type}</p>
             {/* Testimonial Text */}
             <p className="text-gray-600 mt-4">{testimonial.text}</p>
           </div>

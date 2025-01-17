@@ -1,9 +1,11 @@
+import webinar1 from "../assets/webinar1.jpg";
+
 export function ListEvent() {
   const eventscedule = [
     {
       name: "Kick-Start Your LPDP Scholarship",
       series: "Webinar Series 1", // Series name for grouping
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbi-JldEa8ctIC--yCBIIjBOSp_2ZVEoTPdw&s", // Replace with actual image URL
+      image: webinar1, // Replace with actual image URL
       date: "Friday, 10 January 2025",
       description: "Learn the essential steps to prepare for your LPDP Scholarship journey. Gain insights into requirements, tips for success, and strategies to stand out.",
       status: "completed", // Indicates if the event has been completed

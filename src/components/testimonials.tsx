@@ -36,10 +36,10 @@ export function Testimonials() {
         {testimonials.map((testimonial, index) => (
           <div key={index} className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-start">
             {/* Profile Image */}
-            <img src={testimonial.image} alt={testimonial.name} className="w-24 h-24 rounded-full mb-4" />
+            <img src={testimonial.image} alt={testimonial.name} className=" rounded-full" />
             {/* Name and Country */}
-            <h3 className="text-lg font-bold text-gray-800">{testimonial.name}</h3>
-            <p className="text-sm text-gray-500">{testimonial.type}</p>
+            <h3 className="text-lg font-bold text-logblue">{testimonial.name}</h3>
+            <p className="text-sm text-primary">{testimonial.type}</p>
             {/* Testimonial Text */}
             <p className="text-gray-600 mt-4">{testimonial.text}</p>
           </div>

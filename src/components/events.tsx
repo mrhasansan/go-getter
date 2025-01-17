@@ -1,5 +1,5 @@
-import webinar1 from "../assets/webinar1.png";
-import webinar2 from "../assets/webinar2.png";
+import webinar1 from "../assets/webinarone.svg";
+import webinar2 from "../assets/webinartwo.svg";
 
 export function ListEvent() {
   const eventscedule = [

@@ -19,7 +19,7 @@ export function FooterRoute() {
             <FaTiktok />
           </a>
         </div>
-        <p className="mt-8">&copy; 2024 Go-Getter Academy. All rights reserved.</p>
+        <p className="mt-8">&copy; 2025 Go-Getter Academy. All rights reserved.</p>
       </div>
     </footer>
   );

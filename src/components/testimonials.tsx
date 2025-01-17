@@ -1,20 +1,26 @@
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Ch Hamza",
-      country: "Pakistan",
+      name: "Kak Klaraa",
+      country: "Palu",
       image: "https://via.placeholder.com/100", // Replace with real image URL
       text: "It's a very useful platform for students. Furthermore, it is great for students from all over the world to prepare anywhere.",
     },
     {
-      name: "Wasiu Tope Adebayo",
-      country: "Nigeria",
+      name: "Kak Bintang",
+      country: "Luwuk",
       image: "https://via.placeholder.com/100", // Replace with real image URL
       text: "Dear team, you made the actual test easier and for this, I like to say a very big thank you for all the efforts put in place for me to emerge successfully. I took the test once and passed. Thanks for the good job and for putting smiles on our faces.",
     },
     {
-      name: "Prasanth Kolanchi",
-      country: "India",
+      name: "Kak Komang",
+      country: "Semarang",
+      image: "https://via.placeholder.com/100", // Replace with real image URL
+      text: "It's a wonderful website and makes me more comfortable when practicing the exercises. Thanks a lot, team.",
+    },
+    {
+      name: "Kak Deo",
+      country: "Bali",
       image: "https://via.placeholder.com/100", // Replace with real image URL
       text: "It's a wonderful website and makes me more comfortable when practicing the exercises. Thanks a lot, team.",
     },

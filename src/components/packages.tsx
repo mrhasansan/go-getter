@@ -41,7 +41,7 @@ export function BundlingPackages() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-6xl mx-auto text-center mb-12">
-        <h2 className="">Paket Bundling untuk Belajar Lebih Murah dan Lengkap!</h2>
+        <h2 className="font-bold text-logblue">Paket Bundling untuk Belajar Lebih Murah dan Lengkap!</h2>
       </div>
 
       {/* Cards Section */}

@@ -5,6 +5,7 @@ import Logo from ".//assets/gogetterlogo.svg";
 import { useState } from "react";
 import { Testimonials } from "./components/testimonials";
 import { PricingCards } from "./components/price";
+import { ListEvent } from "./components/events";
 
 export function HomeRoute() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,21 +24,21 @@ export function HomeRoute() {
           </button>
 
           {/* Navigation Menu */}
-          <nav className={`${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full  sm:static sm:flex sm:space-x-6`}>
-            <a href="#success-stories" className="block px-6 py-2 hover:underline">
+          <nav className={`${isOpen ? "block" : "hidden"} absolute top-16 left-0 w-full  sm:static sm:flex sm:space-x-6 px-6`}>
+            <a href="#home" className="block px-6 py-2 hover:underline">
               Home
             </a>
-            <a href="#resources" className="block px-6 py-2 hover:underline">
+            <a href="#stories" className="block px-6 py-2 hover:underline">
               Success Stories
             </a>
-            <a href="#about" className="block px-6 py-2 hover:underline">
+            <a href="#events" className="block px-6 py-2 hover:underline">
               Events
             </a>
-            <button className="bg-primary text-white rounded hover:bg-yellow-500 transition">
-              <a href="https://wa.me/message/ZX7P5C5NH2GPA1?src=qr" className="block px-6 py-2 hover:underline">
+            <div className="bg-primary text-white rounded hover:bg-yellow-500 transition">
+              <a href="https://wa.me/message/ZX7P5C5NH2GPA1?src=qr" className="block px-6 py-2">
                 Contact Us
               </a>
-            </button>
+            </div>
           </nav>
         </div>
       </header>
@@ -48,6 +49,7 @@ export function HomeRoute() {
         <CardRoute />
         <PricingCards />
         <Testimonials />
+        <ListEvent />
       </main>
 
       {/* Footer */}

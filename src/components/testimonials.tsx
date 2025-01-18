@@ -1,24 +1,31 @@
 import komang from "../assets/komangsuare.png";
 import bintang from "../assets/bintangsquare.png";
 import dheo from "../assets/dheosquare.png";
+import clara from "../assets/clarasquare.png";
 
 export function Testimonials() {
   const testimonials = [
     {
       name: "Bintang",
-      type: "one-on-one",
+      type: "One-on-one",
       image: bintang, // Replace with real image URL
       text: "So far, udah ngelewatin semua aspek IELTS course, dari reading sampe speaking. Semua materi disampaikan dengan cara yang super terstruktur, tapi tetep chill dan gampang dicerna. Cara ngajarnya tuh enak banget, gak ngerasa ditekan harus bisa semuanya, malah kayak ada yang nemenin belajar gitu. Yang paling worth it sih setiap kali kelar ngerjain task, langsung dapet apresiasi, semangat, plus feedback yang bikin lebih semangat buat lanjut. Makanya, walaupun kadang pengen nyerah, tetep bisa stay motivated. Highly recommended buat kalian para beasiswa hunters yang pengen siap-siap IELTS dengan cara fun dan efektif!",
     },
     {
+      name: "Clara",
+      type: "One-on-one",
+      image: clara, // Replace with real image URL
+      text: "Kelas IELTS Go Getter Academy Private seru sekali. Kelasnya online via zoom. Bisa atur mau kelas hari apa dan jam berapa. Jika mendadak ada kesibukan, bisa reschedule. Komunikasikan saja. Pokoknya flexible. Materi IELTS dibedah satu per satu. Diberi latihan soal dengan tipe yang berbeda-beda tiap skill. Dikasih tau tips and tricks jawab soalnya. Dapat materi dan rekaman zoom, jadi bisa nonton ulang. Dikasih juga link tes IELTS dan bisa tau kita dapat score berapa. Part yang kurang akan dievaluasi dan difokuskan ke situ. Kakak tutornya ramah dan sabar banget ngajarinnya. Penjelasannya juga mudah dimengerti. Bukan hanya materi IELTS, tapi bisa juga konsultasi beasiswa. Gak pelit ilmu ",
+    },
+    {
       name: "Komang",
-      type: "IELTS introduction",
+      type: "IELTS Introduction",
       image: komang, // Replace with real image URL
       text: "As a final-year agricultural student at Tadulako University, I had the pleasure of attending Go Getter Academy for my IELTS preparation, and I couldn't be more satisfied. The teaching approach is exceptional; the instructor’s friendly demeanor creates a welcoming environment that makes learning enjoyable. Each method of IELTS preparation was thoroughly explained, and even though it was just an overview, the insights I gained were truly marvelous. The supportive atmosphere and effective strategies provided by Go Getter Academy have significantly boosted my confidence. I highly recommend this academy to anyone looking to excel in their IELTS exam!",
     },
     {
       name: "Dheo",
-      type: "IELTS introduction",
+      type: "IELTS Introduction",
       image: dheo, // Replace with real image URL
       text: "I love the interactive atmosphere of the class and the abundance of practice questions. The tutor also always provides constructive feedback",
     },

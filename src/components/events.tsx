@@ -12,10 +12,10 @@ export function ListEvent() {
       status: "completed", // Indicates if the event has been completed
     },
     {
-      name: "Brainstorming Pembuatan Esai Kontribusi dan Penilaian Diri LPDP",
+      name: "How to Write an Outstanding Essay for LPDP Scholarship",
       series: "Webinar Series 2", // Series name for grouping
       image: webinar2, // Replace with actual image URL
-      date: "Wednesday, 24 January 2025",
+      date: "Friday, 24 January 2025",
       description: "Explore effective brainstorming techniques to craft a compelling contribution essay and self-assessment essay for your LPDP Scholarship application.",
       status: "upcoming", // Indicates if the event is upcoming
     },

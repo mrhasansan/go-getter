@@ -1,4 +1,5 @@
 import webinar1 from "../assets/webinar1.jpg";
+import webinar2 from "../assets/webinar2.png";
 
 export function ListEvent() {
   const eventscedule = [
@@ -13,7 +14,7 @@ export function ListEvent() {
     {
       name: "Brainstorming Pembuatan Esai Kontribusi dan Penilaian Diri LPDP",
       series: "Webinar Series 2", // Series name for grouping
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOCNPBlJgCYW2iXrN0RlKEAeYCU2QPw7-Gcg&s", // Replace with actual image URL
+      image: webinar2, // Replace with actual image URL
       date: "Wednesday, 24 January 2025",
       description: "Explore effective brainstorming techniques to craft a compelling contribution essay and self-assessment essay for your LPDP Scholarship application.",
       status: "upcoming", // Indicates if the event is upcoming

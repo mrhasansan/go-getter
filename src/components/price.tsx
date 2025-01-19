@@ -7,7 +7,7 @@ export function PricingCards() {
     {
       icon: <IoMdPerson />,
       title: "One-On-One",
-      price: "75.000",
+      price: "Rp 75.000",
       features: [
         "Format IELTS Academic",
         "Latihan lengkap semua skill",

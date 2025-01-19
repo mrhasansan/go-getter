@@ -17,21 +17,21 @@ export function PricingCards() {
         "Rekaman kelas & akses recording",
         "100% online via Zoom",
       ],
-      buttonLabel: "Gabung Kelas",
+      buttonLabel: "Daftar Kelas",
     },
     {
       icon: <MdGroups />,
       title: "IELTS Group",
       price: "Rp 30.000",
       features: ["Format IELTS Academic", "Latihan lengkap semua skill", "Tips strategi menjawab soal", "Diskusi kelompok dengan tutor", "Jadwal tetap & materi terstruktur", "Paket 10 sesi belajar", "100% online via Zoom"],
-      buttonLabel: "Gabung Kelas",
+      buttonLabel: "Daftar Kelas",
     },
     {
       icon: <MdGroups />,
       title: "TOEFL Group",
       price: "Rp 25.000",
       features: ["Format TOEFL ITP", "Latihan Reading, Listening, Structure", "Tips strategi menjawab soal", "Diskusi kelompok dengan tutor", "Jadwal tetap & materi terstruktur", "Paket 10 sesi belajar", "100% online via Zoom"],
-      buttonLabel: "Gabung Kelas",
+      buttonLabel: "Daftar Kelas",
     },
   ];
 

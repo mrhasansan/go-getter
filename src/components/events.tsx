@@ -17,7 +17,7 @@ export function ListEvent() {
       image: webinar2, // Replace with actual image URL
       date: "Friday, 24 January 2025",
       description: "Explore effective brainstorming techniques to craft a compelling contribution essay and self-assessment essay for your LPDP Scholarship application.",
-      status: "upcoming", // Indicates if the event is upcoming
+      status: "completed", // Indicates if the event is upcoming
     },
   ];
 

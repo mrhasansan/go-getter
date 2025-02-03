@@ -79,12 +79,7 @@ export function HomeRoute() {
       {/* Floating WhatsApp Button */}
       <div className="fixed bottom-5 right-5 z-50 flex flex-col items-center">
         {/* Ikon WhatsApp */}
-        <a
-          href="https://wa.me/628123456789?text=Hello,%20I%20need%20help!"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center justify-center w-14 h-14 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600 transition"
-        >
+        <a href=" https://wa.me/message/ZX7P5C5NH2GPA1?src=qr" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-14 h-14 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600 transition">
           <FaWhatsapp size={28} />
         </a>
       </div>

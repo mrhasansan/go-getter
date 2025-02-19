@@ -7,6 +7,7 @@ import { Testimonials } from "./components/testimonials";
 import { PricingCards } from "./components/price";
 import { ListEvent } from "./components/events";
 import { FaWhatsapp } from "react-icons/fa";
+import CalendlyWidget from "./components/calendlywidget";
 
 export function HomeRoute() {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,6 +66,7 @@ export function HomeRoute() {
         <section id="pricing" className="min-h-screen">
           <PricingCards />
         </section>
+
         <section id="testimonials" className="min-h-screen">
           <Testimonials />
         </section>
@@ -77,11 +79,15 @@ export function HomeRoute() {
       <FooterRoute />
 
       {/* Floating WhatsApp Button */}
-      <div className="fixed bottom-5 right-5 z-50 flex flex-col items-center">
+      <div className="fixed bottom-20 right-5 z-50 flex flex-col items-center -space-y-3">
         {/* Ikon WhatsApp */}
         <a href=" https://wa.me/message/ZX7P5C5NH2GPA1?src=qr" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-14 h-14 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600 transition">
           <FaWhatsapp size={28} />
         </a>
+        <section>
+          {/* Calendly Floating Badge */}
+          <CalendlyWidget />
+        </section>
       </div>
     </div>
   );

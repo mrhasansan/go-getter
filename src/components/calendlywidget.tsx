@@ -15,7 +15,7 @@ const CalendlyWidget = () => {
     script.onload = () => {
       if (window.Calendly) {
         window.Calendly.initBadgeWidget({
-          url: "https://calendly.com/gogetteracademy01/90min",
+          url: "https://calendly.com/gogetteracademy01/60min",
           text: "Book/See Time Available",
           color: "#0069ff",
           textColor: "#ffffff",

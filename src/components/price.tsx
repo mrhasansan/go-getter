@@ -7,7 +7,7 @@ export function PricingCards() {
     {
       icon: <IoMdPerson />,
       title: "One-On-One",
-      price: "Rp 75.000",
+      price: "Rp 850.000",
       features: [
         "Format IELTS Academic",
         "Latihan lengkap semua skill",
@@ -22,14 +22,14 @@ export function PricingCards() {
     {
       icon: <MdGroups />,
       title: "IELTS Group",
-      price: "Rp 30.000",
+      price: "Rp 400.000",
       features: ["Format IELTS Academic", "Latihan lengkap semua skill", "Tips strategi menjawab soal", "Diskusi kelompok dengan tutor", "Jadwal tetap & materi terstruktur", "Paket 10 sesi belajar", "100% online via Zoom"],
       buttonLabel: "Daftar Kelas",
     },
     {
       icon: <MdGroups />,
       title: "TOEFL Group",
-      price: "Rp 25.000",
+      price: "Rp 350.000",
       features: ["Format TOEFL ITP", "Latihan Reading, Listening, Structure", "Tips strategi menjawab soal", "Diskusi kelompok dengan tutor", "Jadwal tetap & materi terstruktur", "Paket 10 sesi belajar", "100% online via Zoom"],
       buttonLabel: "Daftar Kelas",
     },
@@ -58,7 +58,7 @@ export function PricingCards() {
               ))}
             </ul>
             {/* Price */}
-            <p className={`text-lg font-semibold ${plan.price === "FREE" ? "text-green-500" : "text-logblue"} mb-4`}>{plan.price}/pertemuan</p>
+            <p className={`text-lg font-semibold ${plan.price === "FREE" ? "text-green-500" : "text-logblue"} mb-4`}>{plan.price}/ 10 pertemuan</p>
 
             {/* Button */}
 
